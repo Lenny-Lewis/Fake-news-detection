@@ -27,19 +27,7 @@ Designed for **scalability and interpretability**, the system supports **journal
 
 ---
 
-## 🏗️ System Architecture
 
-```mermaid id="fnd_architecture"
-flowchart TD
-    A[News Article Text] --> B[Text Preprocessing]
-    B --> C[Feature Extraction (TF-IDF / Word Embeddings)]
-    C --> D[ML Models (Logistic Regression, Random Forest, XGBoost, LSTM)]
-    D --> E[Prediction Output: Real / Fake]
-    E --> F[Dashboard & Reporting]
-    D --> G[Explainable AI (SHAP / LIME)]
-```
-
----
 
 ## 🧠 Tech Stack
 
